@@ -1,0 +1,344 @@
+{
+  "salesdata": [
+    {
+      "collections": 150,
+
+      "signups": {
+        "total": 120,
+        "byProduct": {
+          "analytics": 50,
+          "finance": 40,
+          "timetable": 30
+        }
+      },
+
+      "signuptargets": {
+        "analytics": 200,
+        "finance": 150,
+        "timetable": 100
+      },
+
+      "revenue": {
+        "total": 50000,
+        "byProduct": {
+          "analytics": 20000,
+          "finance": 15000,
+          "timetable": 15000
+        }
+      },
+      "bouncedCheques": 5,
+      "schools": [
+        {
+          "id": 1,
+          "name": "ABC Primary",
+          "type": "Primary",
+          "products": ["analytics"],
+          "county": "Nairobi",
+          "registrationDate": "2022-01-15",
+          "contactInfo": "contact@abcprimary.com",
+          "balance": 1000,
+          "invoices": [
+            {
+              "invoiceNumber": "INV001",
+              "item": "Zeraki Analytics",
+              "creationDate": "2023-05-01",
+              "dueDate": "2024-06-01",
+              "amount": 2000,
+              "paidAmount": 1000,
+              "status": "Pending",
+              "daysUntilDue": 5
+            }
+          ],
+          "collections": [
+            {
+              "invoiceNumber": "INV001",
+              "collectionNumber": "COL001",
+              "date": "2023-05-15",
+              "status": "Valid",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "XYZ High School",
+          "type": "Secondary",
+          "products": ["finance"],
+          "county": "Mombasa",
+          "registrationDate": "2021-08-10",
+          "contactInfo": "contact@xyzhigh.com",
+          "balance": 2000,
+          "invoices": [
+            {
+              "invoiceNumber": "INV002",
+              "item": "Zeraki Finance",
+              "creationDate": "2023-04-01",
+              "dueDate": "2023-05-01",
+              "amount": 3000,
+              "paidAmount": 1000,
+              "status": "Pending",
+              "daysUntilDue": -20
+            }
+          ],
+          "collections": [
+            {
+              "invoiceNumber": "INV002",
+              "collectionNumber": "COL002",
+              "date": "2023-04-20",
+              "status": "Valid",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "LMN Academy",
+          "type": "Primary",
+          "products": ["timetable", "analytics"],
+          "county": "Kisumu",
+          "registrationDate": "2022-03-05",
+          "contactInfo": "contact@lmnacademy.com",
+          "balance": 500,
+          "invoices": [
+            {
+              "invoiceNumber": "INV003",
+              "item": "Zeraki Timetable",
+              "creationDate": "2023-06-01",
+              "dueDate": "2024-07-01",
+              "amount": 1500,
+              "paidAmount": 1000,
+              "status": "Pending",
+              "daysUntilDue": 30
+            }
+          ],
+          "collections": [
+            {
+              "invoiceNumber": "INV003",
+              "collectionNumber": "COL003",
+              "date": "2023-06-15",
+              "status": "Valid",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "OPQ International",
+          "type": "Secondary",
+          "products": ["finance", "analytics"],
+          "county": "Nakuru",
+          "registrationDate": "2020-11-23",
+          "contactInfo": "contact@opqint.com",
+          "balance": 0,
+          "invoices": [
+            {
+              "invoiceNumber": "INV004",
+              "item": "Zeraki Finance",
+              "creationDate": "2023-03-01",
+              "dueDate": "2023-04-01",
+              "amount": 2500,
+              "paidAmount": 2500,
+              "status": "Paid",
+              "daysUntilDue": -50
+            }
+          ],
+          "collections": [
+            {
+              "invoiceNumber": "INV004",
+              "collectionNumber": "COL004",
+              "date": "2023-03-20",
+              "status": "Valid",
+              "amount": 2500
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "DEF School",
+          "type": "Primary",
+          "products": ["analytics"],
+          "county": "Kiambu",
+          "registrationDate": "2021-09-10",
+          "contactInfo": "contact@defschool.com",
+          "balance": 1500,
+          "invoices": [
+            {
+              "invoiceNumber": "INV005",
+              "item": "Zeraki Analytics",
+              "creationDate": "2023-05-10",
+              "dueDate": "2024-06-10",
+              "amount": 3000,
+              "paidAmount": 1500,
+              "status": "Pending",
+              "daysUntilDue": 15
+            }
+          ],
+          "collections": [
+            {
+              "invoiceNumber": "INV005",
+              "collectionNumber": "COL005",
+              "date": "2023-05-25",
+              "status": "Valid",
+              "amount": 1500
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "GHI College",
+          "type": "IGCSE",
+          "products": ["timetable", "finance"],
+          "county": "Nairobi",
+          "registrationDate": "2021-01-20",
+          "contactInfo": "contact@ghicollege.com",
+          "balance": 0,
+          "invoices": [
+            {
+              "invoiceNumber": "INV006",
+              "item": "Zeraki Timetable",
+              "creationDate": "2023-02-01",
+              "dueDate": "2023-03-01",
+              "amount": 4000,
+              "paidAmount": 4000,
+              "status": "Paid",
+              "daysUntilDue": -90
+            }
+          ],
+          "collections": [
+            {
+              "invoiceNumber": "INV006",
+              "collectionNumber": "COL006",
+              "date": "2023-02-15",
+              "status": "Valid",
+              "amount": 4000
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "JKL Secondary",
+          "type": "Secondary",
+          "products": ["analytics", "timetable"],
+          "county": "Machakos",
+          "registrationDate": "2022-07-12",
+          "contactInfo": "contact@jklsecondary.com",
+          "balance": 250,
+          "invoices": [
+            {
+              "invoiceNumber": "INV007",
+              "item": "Zeraki Analytics",
+              "creationDate": "2023-01-01",
+              "dueDate": "2024-07-01",
+              "amount": 1750,
+              "paidAmount": 1500,
+              "status": "Pending",
+              "daysUntilDue": -110
+            }
+          ],
+          "collections": [
+            {
+              "invoiceNumber": "INV007",
+              "collectionNumber": "COL007",
+              "date": "2023-01-20",
+              "status": "Valid",
+              "amount": 1500
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "MNO Technical",
+          "type": "IGCSE",
+          "products": ["finance"],
+          "county": "Eldoret",
+          "registrationDate": "2020-05-15",
+          "contactInfo": "contact@mnotechnical.com",
+          "balance": 0,
+          "invoices": [
+            {
+              "invoiceNumber": "INV008",
+              "item": "Zeraki Finance",
+              "creationDate": "2023-05-05",
+              "dueDate": "2023-06-05",
+              "amount": 5000,
+              "paidAmount": 5000,
+              "status": "Paid",
+              "daysUntilDue": -10
+            }
+          ],
+          "collections": [
+            {
+              "invoiceNumber": "INV008",
+              "collectionNumber": "COL008",
+              "date": "2023-05-20",
+              "status": "Valid",
+              "amount": 5000
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "PQR Institute",
+          "type": "IGCSE",
+          "products": ["analytics"],
+          "county": "Kisii",
+          "registrationDate": "2019-12-01",
+          "contactInfo": "contact@pqrinstitute.com",
+          "balance": 0,
+          "invoices": [
+            {
+              "invoiceNumber": "INV009",
+              "item": "Zeraki Analytics",
+              "creationDate": "2023-06-01",
+              "dueDate": "2023-07-01",
+              "amount": 6000,
+              "paidAmount": 6000,
+              "status": "Paid",
+              "daysUntilDue": 30
+            }
+          ],
+          "collections": [
+            {
+              "invoiceNumber": "INV009",
+              "collectionNumber": "COL009",
+              "date": "2023-06-10",
+              "status": "Valid",
+              "amount": 6000
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "STU School",
+          "type": "Primary",
+          "products": ["timetable"],
+          "county": "Nairobi",
+          "registrationDate": "2023-01-01",
+          "contactInfo": "contact@stuschool.com",
+          "balance": 300,
+          "invoices": [
+            {
+              "invoiceNumber": "INV010",
+              "item": "Zeraki Timetable",
+              "creationDate": "2024-05-15",
+              "dueDate": "2024-06-15",
+              "amount": 1800,
+              "paidAmount": 1500,
+              "status": "Pending",
+              "daysUntilDue": 10
+            }
+          ],
+          "collections": [
+            {
+              "invoiceNumber": "INV010",
+              "collectionNumber": "COL010",
+              "date": "2023-05-30",
+              "status": "Valid",
+              "amount": 1500
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
